@@ -17,7 +17,6 @@ def initialize(name,artist,genre)
   if @artists.include?(@artist) == false 
     @@unique_artist << @artist
   end
-  
   @@genres << @genre
   @@total_songs << @name 
   @@count += 1
@@ -29,7 +28,7 @@ def self.count
 end
 
 def self.artists
- @
+ 
 end
 
 def self.genres
