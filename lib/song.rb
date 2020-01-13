@@ -28,7 +28,7 @@ def self.artists
   if @@artists.include?(@artist) == false 
     @@unique_artist << @artist 
   end
-  @unique_artist
+  return @unique_artist
   
 end
 
