@@ -28,7 +28,7 @@ def self.count
 end
 
 def self.artists
- 
+ @@unique_artist
 end
 
 def self.genres
