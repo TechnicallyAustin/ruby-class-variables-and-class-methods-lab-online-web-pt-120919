@@ -12,7 +12,7 @@ def initialize(name,artist,genre)
   @genre = genre
   @artist = artist
   #shovel each artist and Genre into class variables
-  if artists.include?(@artist) == false
+  if @@artists.include?(@artist) == false
   @@artists << @artist
   end
   @@genres << @genre
