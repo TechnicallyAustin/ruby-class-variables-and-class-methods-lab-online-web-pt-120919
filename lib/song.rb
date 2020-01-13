@@ -44,9 +44,8 @@ if @new_hash[i]
 else 
   @new_hash[i] = 1 
 end
-@new_hash
 end
-
+@new_hash
 end
 
 def self.artist_count
