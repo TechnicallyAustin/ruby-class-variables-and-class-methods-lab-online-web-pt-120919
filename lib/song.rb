@@ -25,10 +25,7 @@ def self.count
 end
 
 def self.artists
-  if @@artists.include?(@artist) == false 
-    @@unique_artist << @artist 
-  end
-  return @unique_artist
+  @@artist 
   
 end
 
