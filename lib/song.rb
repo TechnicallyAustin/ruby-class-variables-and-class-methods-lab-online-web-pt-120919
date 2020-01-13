@@ -45,7 +45,7 @@ if @new_hash[i]
 else 
   @new_hash = 1 
 end
-new_hash
+@new_hash
 end
 
 end
