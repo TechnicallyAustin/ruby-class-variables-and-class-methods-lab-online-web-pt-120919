@@ -20,7 +20,7 @@ end
 #class methods
 
 def self.count
-  @@total_songs
+  self.name
 end
 
 def self.artists
