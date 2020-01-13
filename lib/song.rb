@@ -41,6 +41,7 @@ x = 1
 if @new_hash[i] == true   
 @new_hash[i] = x 
 x++
+
 elsif @new_hash[i] == FALSE
 @new_hash[i] == 
 x++
