@@ -14,7 +14,7 @@ def initialize(name,artist,genre)
   @artist = artist
   #shovel each artist and Genre into class variables
   @@artists << @artist
-  if @@artists.include?(@artist) == false 
+  unless @@artists.include?(@artist) == false 
     @@unique_artist << @artist
   end
   @@genres << @genre
@@ -26,5 +26,10 @@ end
 def self.count
   @@count
 end
+
+def self.artists
+  
+
+
 
 end
