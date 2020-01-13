@@ -27,21 +27,4 @@ def self.count
   @@count
 end
 
-def self.artists
- @@unique_artist
 end
-
-def self.genres
-  @@genres
-end
-
-def self.genres_count
-  @@genres.length
-end
-
-def self.artist_count
-  @@artists.length
-end
-
-end
-#binding.pry
