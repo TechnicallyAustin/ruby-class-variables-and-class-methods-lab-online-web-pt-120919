@@ -5,6 +5,7 @@ class Song
   @@total_songs = [] 
   @@artists = []
   @@genres = []
+  @@unique_artist = []
   @@count = 0
 
 def initialize(name,artist,genre)
@@ -24,7 +25,11 @@ def self.count
 end
 
 def self.artists
-  @@artists
+  if @@artists.include?(@artist) == false 
+    @@unique_artist << @artist 
+  end
+  @unique_artist
+  
 end
 
 def self.genres
