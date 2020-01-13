@@ -21,11 +21,11 @@ def initialize(name,artist,genre)
   unless @@genres.include?(@genres) do 
     @@unique_genre << @genre
   end
-    
   @@genres << @genre
   @@total_songs << @name 
   @@count += 1
 end
+
 #class methods
 
 def self.count
