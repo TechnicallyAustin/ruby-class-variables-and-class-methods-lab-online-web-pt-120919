@@ -25,7 +25,10 @@ def self.count
 end
 
 def self.artists
-  @@artists
+  if @@artists.include?(@artist) == true
+    @@artists.pop(@artist)
+  end
+  @artist
   
 end
 
