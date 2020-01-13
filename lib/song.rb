@@ -20,19 +20,23 @@ end
 #class methods
 
 def self.count
-  @@total_songs.length 
+  @@total_songs
 end
 
 def self.artists
+  @@artists
 end
 
 def self.genres
+  @@genres
 end
 
 def self.genres_count
+  @@genres.length
 end
 
 def self.artist_count
+  @@artists.length
 end
 
 end
