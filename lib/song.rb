@@ -37,7 +37,6 @@ end
 
 def self.genre_count
 @new_hash = {}
-x = 1 
 @@genres.each do |i|
 if @new_hash[i]  
 @new_hash[i] += 1 
