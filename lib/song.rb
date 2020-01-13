@@ -27,11 +27,11 @@ def self.count
 end
 
 def self.artists
-  @@artists.delete_if? { |i| i == self}
+  @@artists.reject  { |i| i == self}
 end
 
 def self.genres
-  @@genres.delete_if? { |i| i == self}
+  @@genres.reject { |i| i == self}
   
 end
 
