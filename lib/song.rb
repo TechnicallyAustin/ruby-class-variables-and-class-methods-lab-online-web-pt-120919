@@ -14,7 +14,9 @@ def initialize(name,artist,genre)
   #shovel each artist and Genre into class variables
   @@artists << @artist
   @@genres << @genre
+  unless @@total_songs.include?(@name) do 
   @@total_songs << @name 
+  end
   @@count += 1
 end
 #class methods
