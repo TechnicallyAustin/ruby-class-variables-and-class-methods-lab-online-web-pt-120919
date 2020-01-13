@@ -27,11 +27,11 @@ def self.count
 end
 
 def self.artists
-  @@artists.reject  { |i| i == @artist}
+  @@artists== @@artists.uniq
 end
 
 def self.genres
-  @@genres.reject { |i| i == @genre}
+  @@genres == genres.uniq
   
 end
 
