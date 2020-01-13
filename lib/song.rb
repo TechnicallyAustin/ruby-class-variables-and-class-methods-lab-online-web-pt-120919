@@ -43,7 +43,7 @@ if @new_hash[i] == true
 x++
 
 elsif @new_hash[i] == FALSE
-@new_hash[i] == 
+  @new_hash = { "#{i}" => x }
 x++
 end
 @new_hash
