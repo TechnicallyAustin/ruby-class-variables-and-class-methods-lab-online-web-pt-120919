@@ -49,7 +49,15 @@ end
 end
 
 def self.artist_count
-  
+  @art_hash = {}
+  @@artists.each do |i|
+    if @art_hash[i]
+      @art_hash[i] += 1
+    else 
+      @art_hash[i] = 1 
+    end
+  end
+  @art_hash
 end
   
 
