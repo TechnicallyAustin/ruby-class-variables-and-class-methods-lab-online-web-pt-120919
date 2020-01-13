@@ -15,14 +15,6 @@ def initialize(name,artist,genre)
   @artist = artist
   #shovel each artist and Genre into class variables
   @@artists << @artist
-  unless @@artists.include?(@artist) 
-    @@unique_artist << @artist
-  end
-  
-  unless @@genres.include?(@genres) 
-    @@unique_genre << @genre
-  end
-  
   @@genres << @genre
   @@total_songs << @name 
   @@count += 1
