@@ -42,7 +42,7 @@ def self.genre_count
     if new_hash.include?(i)
       @new_hash[i] += 1 
     end
-    
+  end
    
 end
 
