@@ -38,9 +38,9 @@ def self.genre_count
   @new_hash = {}
   x = 0 
   @@genres.each do |i|
-    @new_hash[i] = x
+    @new_hash[i]
     if @new_hash.include?(i)
-      @new_hash[i] = x++
+      @new_hash[i] 
     end
     @new_hash
   end
