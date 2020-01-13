@@ -30,6 +30,10 @@ def self.artists
   @@unique_artist
 end
 
+def self.genres
+  @@genres.delete_if?()
+end
+
   
 
 
