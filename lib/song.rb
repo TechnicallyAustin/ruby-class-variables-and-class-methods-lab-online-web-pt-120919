@@ -34,6 +34,7 @@ def self.genres
   @@genres.uniq
 end
 
+
 def self.genre_count
 @new_hash = {}
 x = 1 
@@ -42,10 +43,10 @@ if @new_hash[i] == true
 @new_hash[i] = x 
 x++
 end
-
 if @new_hash[i] == FALSE
   @new_hash = { "#{i}" => x }
 x++
+end
 end
 @new_hash
 end
