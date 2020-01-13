@@ -35,20 +35,19 @@ def self.genres
 end
 
 def self.genre_count
-  @new_hash = {}
-  x = 0 
-  @@genres.detect do |i|
-    @@genres.include?(i)
-     
-     
-    if @new_hash.include?(i)
-      @new_hash[i] += 1 
-    end
-    @new_hash
-  end
-   
+@new_hash = {}
+x = 1 
+@@genres.each do |i|
+if @new_hash[i] == true   
+@new_hash[i] = x 
+x++
+elsif @new_hash[i] == FALSE
+@new_hash[i] == 
+x++
 end
+@new_hash
 
+end
 def self.artist_count
   
 end
