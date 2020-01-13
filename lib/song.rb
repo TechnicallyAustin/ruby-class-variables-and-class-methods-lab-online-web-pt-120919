@@ -35,11 +35,11 @@ def self.genres
 end
 
 def self.genre_count
-  
+  @@genres.size
 end
 
 def self.artist_count
-  
+  @@artists.size 
 end
   
 
