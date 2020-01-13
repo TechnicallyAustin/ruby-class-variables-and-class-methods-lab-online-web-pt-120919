@@ -17,10 +17,10 @@ def initialize(name,artist,genre)
   @@artists << @artist
   unless @@artists.include?(@artist) do  
     @@unique_artist << @artist
-  end
+  
   unless @@genres.include?(@genres) do 
     @@unique_genre << @genre
-  end
+  
   @@genres << @genre
   @@total_songs << @name 
   @@count += 1
