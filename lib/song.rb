@@ -41,8 +41,9 @@ x = 1
 if @new_hash[i] == true   
 @new_hash[i] = x 
 x++
+end
 
-elsif @new_hash[i] == FALSE
+if @new_hash[i] == FALSE
   @new_hash = { "#{i}" => x }
 x++
 end
