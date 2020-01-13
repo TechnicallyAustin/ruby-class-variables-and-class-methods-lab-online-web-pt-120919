@@ -27,11 +27,12 @@ def self.count
 end
 
 def self.artists
-  @@unique_artist
+  @@artists.delete_if? { |i| i == self}
 end
 
 def self.genres
-  @@genres.delete_if?()
+  @@genres.delete_if? { |i| i == self}
+  
 end
 
   
