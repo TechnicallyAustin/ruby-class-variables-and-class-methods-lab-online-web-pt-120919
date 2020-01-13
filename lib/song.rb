@@ -47,9 +47,7 @@ if @new_hash[i] == FALSE
   @new_hash = { "#{i}" => x }
 x++
 end
-
 @new_hash
-
 end
 
 def self.artist_count
