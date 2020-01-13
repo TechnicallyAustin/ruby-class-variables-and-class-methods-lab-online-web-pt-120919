@@ -39,7 +39,7 @@ def self.genre_count
   x = 0 
   @@genres.each do |i|
     @new_hash[i] = 0
-    if new_hash.include?(i)
+    if @new_hash.include?(i)
       @new_hash[i] += 1 
     end
     new_hash
