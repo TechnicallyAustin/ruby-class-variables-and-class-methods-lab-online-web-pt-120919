@@ -35,11 +35,13 @@ def self.genres
 end
 
 def self.genre_count
-  @@genres.size
+  new_hash = {}
+  
+   
 end
 
 def self.artist_count
-  @@artists.size 
+  
 end
   
 
