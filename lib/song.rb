@@ -14,7 +14,7 @@ def initialize(name,artist,genre)
   @artist = artist
   #shovel each artist and Genre into class variables
   @@artists << @artist
-  if @artists.include?(@artist) == false 
+  if @@artists.include?(@artist) == false 
     @@unique_artist << @artist
   end
   @@genres << @genre
