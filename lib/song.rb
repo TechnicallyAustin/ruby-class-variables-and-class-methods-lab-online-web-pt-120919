@@ -42,13 +42,15 @@ x = 1
 if @new_hash[i] == true   
 @new_hash[i] = x 
 x++
+@new_hash
 end
 if @new_hash[i] == FALSE
   @new_hash = { "#{i}" => x }
 x++
-end
-end
 @new_hash
+end
+end
+
 end
 
 def self.artist_count
