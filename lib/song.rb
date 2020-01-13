@@ -43,7 +43,7 @@ if @new_hash[i]
 @new_hash[i] += 1 
 
 else 
-  @new_hash = 1 
+  @new_hash[i] = 1 
 end
 @new_hash
 end
